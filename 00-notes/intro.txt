@@ -1,0 +1,50 @@
+
+
+
+why javascript ?
+
+ --> to build web-ui applications 
+ --> to build mobile applications
+ --> to build desktop applications
+ --> to command-line tools
+ --> to build server-side applications 
+
+----------------------------------------------------
+
+javascript language features :
+
+    - dynamic typing
+    - functions as first class citizens
+    - single threaded execution model
+    - by default, non-blocking IO
+    - event driven programming model
+
+----------------------------------------------------    
+
+javascript is based on ECMAScript standard
+
+current version : ES6
+
+----------------------------------------------------
+
+
+how to execute javascript code ?
+
+- using javascript engine
+
+    - browser-side javascript engine
+
+        - chrome browser  --> v8 engine
+        - firefox browser --> spider monkey engine
+        - safari browser  --> nitro engine
+        - IE/Edge browser --> chakra engine
+
+    - server-side javascript engine
+
+        - node.js --> v8 engine
+
+    - JVM based javascript engine
+
+        - nashorn engine
+
+----------------------------------------------------
