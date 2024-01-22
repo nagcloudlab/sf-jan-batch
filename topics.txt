@@ -3,7 +3,7 @@
 topics to be covered in javascript
 --------------------------------------------------------
 ✅ 1. introdction 
-2. data types
+✅ 2. data types
 3. scope / execution-context
 4. functions
 5. 'this' keyword / function-binding
