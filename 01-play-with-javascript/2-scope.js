@@ -126,9 +126,42 @@
 
 //-----------------------------------------------------------------------
 
-
 // for (let i = 0; i < 2; i++) {
 //     for (let i = 0; i < 2; i++) {
 //         console.log("salesforce");
 //     }
 // }
+
+//-----------------------------------------------------------------------
+
+// mutable types vs immutable types
+
+/*
+
+    a. mutable
+        - object
+        - array
+        - function
+
+    b. immutable
+        - all primitives
+          e.g string, number, boolean, undefined
+
+*/
+
+
+// const n1 = 12
+// n1 = 13; // error
+
+// const o = {
+//     x: 1
+// }
+// o.x = 2; // no error
+
+//-----------------------------------------------------------------------   
+
+
+// let i = 10
+// const j = i // value copy
+
+//-----------------------------------------------------------------------   
