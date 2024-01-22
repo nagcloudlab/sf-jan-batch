@@ -2,16 +2,15 @@
 
 // data types
 
-// everything is an object
+// we can create objects in 2 ways
 
-// 1. literals style objects
-// 2. constructor style objects
+// 1. literals style
+// 2. constructor style
 
 //--------------------------------------------
 
 // 1. string
 
-// literal style
 var myName = "Nag";
 var myFullName = 'nagabhushanam';
 var myAddress = `
@@ -20,23 +19,19 @@ var myAddress = `
 `
 var dynamicString = `the sum of 1 and 2 is ${1 + 2}`
 
-// constructor style
 // var myName = new String("Nag");
 
 //--------------------------------------------
 // 2. number
 
-// literal style
 var count = 12;
 var cost = 12.12;
 
-// constructor style
 // var count = new Number(12);
 
 //--------------------------------------------
 // 3. boolean
 
-// literal style
 var isFound = true;
 isFound = false;
 
@@ -44,7 +39,6 @@ isFound = false;
 // imp-note-2 : any other values are truthy
 // reference : https://dorey.github.io/JavaScript-Equality-Table/
 
-// constructor style
 // var isFound = new Boolean(false);
 
 //--------------------------------------------
@@ -62,7 +56,6 @@ var person = null;
 //--------------------------------------------
 // 6. object
 
-// literal style object
 // var person1 = {
 //     name: 'Nag',
 //     age: 41,
@@ -70,7 +63,6 @@ var person = null;
 
 // or
 
-// constructor style object
 // var person1 = new Object();
 // person1.name = 'Nag';
 // person1.age = 41;
@@ -116,10 +108,8 @@ var person = null;
 
 // 7. array
 
-// literal style 
 var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
-// constructor style
 // var arr = new Array(1, 2, 3, 4, 5, 6, 7, 8, 9);
 
 
@@ -127,22 +117,18 @@ var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
 // 8. regexp
 
-// literal style
 var aadharPattern = /^\d{4}-\d{4}-\d{4}$/;
 
-// constructor style
 // var aadharPattern = new RegExp('^\\d{4}-\\d{4}-\\d{4}$');
 
 //--------------------------------------------
 
 // 9. function
 
-// literal style
 var add = function (a, b) {
     return a + b;
 }
 
-// constructor style
 // var add = new Function("a", "b", "return a+b");
 
 //--------------------------------------------
@@ -171,7 +157,6 @@ var p2 = new Person('Ria', 8);
 
 
 //--------------------------------------------
-
 
 var foo = {
     x: 12,
