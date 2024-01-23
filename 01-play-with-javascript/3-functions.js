@@ -290,6 +290,8 @@ function teach(sub) {
 // IIFE ( Immediatly Invokable Function Expression )
 // IIFE  ==> module design pattern
 
+let value = 100;
+
 const counter = (function (intialCount) {
     console.log("init()");
     let c = 10 * intialCount
@@ -305,7 +307,7 @@ const counter = (function (intialCount) {
         increment: increment,
         get: get
     }
-})(100);
+})(value);
 
 // ------------------------------------------------
 
