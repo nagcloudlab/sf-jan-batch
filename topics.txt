@@ -17,3 +17,6 @@ topics to be covered in javascript
 Using jest?
 mocking is also covered?
 Do we cover other frameworks like vue.js ?
+Deep clone and shallow clone of arrays
+
+--------------------------------------------------------

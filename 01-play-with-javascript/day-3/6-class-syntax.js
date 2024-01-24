@@ -83,6 +83,8 @@ class Abc {
 Abc.staVar = 12;
 // Abc.staMethod();
 
+
+
 //-------------------------------------
 
 class Emp {
@@ -110,9 +112,35 @@ const instance = new A();
 
 
 
+class E {
+    static tnrName = "Nag";
+    id;
+    name;
+    static doTeach() {
+
+    }
+    doListen() {
+        console.log('E::doListen()');
+    }
+}
 
 
+class TE extends E {
+    doListen() {
+        console.log('TE::doListen()');
+    }
+}
 
+
+TE.tnrName = "Ria";
+TE.doTeach()
+const te = new TE();
+console.log(te.id);
+console.log(te.name);
+te.doListen();
+
+
+//-------------------------------------
 
 
 
