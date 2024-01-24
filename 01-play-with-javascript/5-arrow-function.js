@@ -130,8 +130,8 @@ let invoice = {
     }
 }
 
-const complete = invoice.process();
-complete()
+// const complete = invoice.process();
+// complete()
 
 
 
@@ -139,10 +139,23 @@ complete()
 
 
 
+const trainer = {
+    name: 'Nag',
+    doTeach: function () {
+        console.log(this.name + " teaching .js");
+        let doAskQ = (q) => {
+            console.log(`${this.name} answering ${q}`);
+        }
+        console.log("teaching ends");
+        return doAskQ;
+    }
+}
+
+const askQ = trainer.doTeach();
+askQ('Q1');
 
 
-
-
+//------------------------------------------------------------
 
 
 

@@ -6,8 +6,8 @@ topics to be covered in javascript
 ✅ 2. data types
 ✅ 3. scope / execution-context
 ✅ 4. functions
-✅5. function-binding / 'this' keyword 
-6. es6 & above features
+✅ 5. function-binding / 'this' keyword 
+✅ 6. es6 & above features
 7. javascript with browser-apis
 8. typescript
 9. unit-testing
