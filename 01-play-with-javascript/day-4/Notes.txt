@@ -1,0 +1,142 @@
+
+
+-------------------------------------------------------
+
+static UI = data + style 
+dynamic UI = data + style + interaction
+
+-------------------------------------------------------
+
+static Web-UI = HTML + CSS
+dynamic Web-UI = HTML + CSS + JS
+
+-------------------------------------------------------
+
+why we javascript on HTML-page?
+
+-> javascript using browser's web-APIs,can make page interactive.
+-> browser's web-APIs => w3c recommendations
+-> e.g DOM, XHR/fetch , Timer,....
+-> browser's vendors implemented above Apis, abstracted as JS objects/ functions
+
+
+using DOM API
+------------------
+ -> to create/update/delete HTML elements
+ -> to apply CSS on HTML elements
+ -> to handle events on HTML elements
+
+using XHR/fetch API
+-----------------------
+ -> to make async http calls to remote server
+ -> to read/write data from/to remote server
+
+using Timer API
+--------------------
+ -> to schedule tasks asynchronously
+
+HTML5 Web-APIs
+-------------------------
+
+-> Geolocation API
+-> Canvas API
+-> Audio/Video API
+...
+
+-------------------------------------------------------
+
+complexities while working with browser's Api's directly
+
+ -> browser's compatability issues 
+ -> memory leaks ( i.e clean un-used DOM elements from memory )
+ -> performance issues ( i.e keep minimal DOM change )
+ -> security issues ( i.e avoid XSS attacks )
+ -> boilerplate code ( i.e to handle browser's compatability issues, memory leaks, performance issues, security issues )
+ -> code re-usability
+
+
+solution-1:
+
+-> using server-page technologies ( e.g JSP, ASP, CGI,....)
+
+   limitations:
+
+   -> on every request, server should re-constrcut entire page
+   -> server should maintain client's state   
+   -> increase n/w bandwidth usage
+   -> browser's should re-load entire page
+
+solution-2:
+
+-> client-side page technologies/rendering
+
+    how?
+
+    -> modern browser(s) + javascript-language + HTML5 web-APIs
+
+    +
+
+    -> third-party's JS frameworks/libraries
+
+
+-------------------------------------------------------
+
+
+third-party's JS frameworks/libraries
+
+1. jquery ( => DOM & XHR utility library )
+
+mvc pattern based 
+
+2. knockout.js 
+3. backbone.js 
+4. dojo toolkit
+5. ext.js from sencha ( commercial )
+6. ember.js
+7. angular.js ( from google )
+
+component pattern based
+
+8. react.js ( from facebook )
+9. angular ( from google )
+10. vue.js
+
+-------------------------------------------------------
+
+-------------------------------------------------------
+
+web-ui-developer's skills
+
+-> HTML
+-> CSS
+-> JS
+-> Browser's Web-APIs
++
+-> third-party's JS frameworks/libraries ( e.g angular, react, vue,.... )
+
+
+
+-------------------------------------------------------
+
+-------------------------------------------------------
+
+javascript ,
+
+    => single-threaded 
+    => non-blocking I/O
+
+how javascript supporting concurrency?
+limitations with single-threaded model
+
+browser's internal architecture ( e.g chrome )
+
+
+    1. JS-Engine => v8 ( based on ecma script specification)
+        a. stack-memory
+        b. heap-memory
+    2. Event/Callback/Message-Queue
+    3. Browser-APIs => DOM, XHR/fetch, Timer,.... ( w3c recommendations )
+
+
+
+--------------------------------------------------    

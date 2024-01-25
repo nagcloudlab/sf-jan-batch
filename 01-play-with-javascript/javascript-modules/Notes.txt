@@ -1,0 +1,15 @@
+
+
+
+commonjs module standard
+-------------------------------
+
+ rules
+
+ -> every file is a module
+ -> all variables and functions defined in a module are private unless explicitly exported
+ -> to abstract/export a variable or function, use 'module.exports' object
+ -> to import a module, use 'require' function
+ -> group related modules in a folde as package, with a 'package.json' file
+
+ node.js has a built-in module system based on commonjs standard

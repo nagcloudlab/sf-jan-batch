@@ -1,0 +1,41 @@
+
+
+
+Automated Test
+
+    => Arrange
+    => Act
+    => Assert
+
+------------------------------------------
+
+Testing Frameworks
+
+    => jasmine
+    => jest
+
+------------------------------------------
+
+Test Runner
+
+    => karma
+
+------------------------------------------
+
+Assertion Library
+
+    => chai
+
+------------------------------------------
+
+Mocking Library
+
+    => sinon
+
+------------------------------------------
+
+Testing Library
+
+https://testing-library.com/docs/
+
+------------------------------------------
